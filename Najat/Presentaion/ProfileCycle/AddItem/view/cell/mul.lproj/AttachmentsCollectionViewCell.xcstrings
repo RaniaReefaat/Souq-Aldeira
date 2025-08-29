@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "50Y-Dp-hAf.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Attach photos Or video\"; ObjectID = \"50Y-Dp-hAf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إرفاق الصور \nأو الفديو"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Attach photos Or video"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,222 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "8vD-Eb-l04.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Followers\"; ObjectID = \"8vD-Eb-l04\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متابعين"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Followers"
+          }
+        }
+      }
+    },
+    "Adq-Nq-7dn.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1\"; ObjectID = \"Adq-Nq-7dn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1"
+          }
+        }
+      }
+    },
+    "EN8-r7-boA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2\"; ObjectID = \"EN8-r7-boA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2"
+          }
+        }
+      }
+    },
+    "fgd-sw-nP7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Following\"; ObjectID = \"fgd-sw-nP7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متابعة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Following"
+          }
+        }
+      }
+    },
+    "l9m-YH-4tx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"l9m-YH-4tx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "LgI-Uc-Fjy.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"products\"; ObjectID = \"LgI-Uc-Fjy\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "منتجات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "products"
+          }
+        }
+      }
+    },
+    "MoS-sV-atk.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Store Requests\"; ObjectID = \"MoS-sV-atk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طلبات المتجر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Store Requests"
+          }
+        }
+      }
+    },
+    "P7D-9Y-kBR.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Share profile\"; ObjectID = \"P7D-9Y-kBR\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاركة الملف الشخصي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Share profile"
+          }
+        }
+      }
+    },
+    "s2s-qB-6gS.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"My products\"; ObjectID = \"s2s-qB-6gS\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "منتجاتي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "My products"
+          }
+        }
+      }
+    },
+    "tgF-st-p05.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"tgF-st-p05\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "UJR-5f-57f.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Number of requests: \"; ObjectID = \"UJR-5f-57f\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عدد الطلبات : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Number of requests: "
+          }
+        }
+      }
+    },
+    "ZjY-bd-WZJ.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Edit Profile\"; ObjectID = \"ZjY-bd-WZJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعديل الملف الشخصي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Edit Profile"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

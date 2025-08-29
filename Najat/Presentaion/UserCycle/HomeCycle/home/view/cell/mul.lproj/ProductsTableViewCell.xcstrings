@@ -1,0 +1,35 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "5xC-mU-ogg.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Add to cart\"; ObjectID = \"5xC-mU-ogg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة إلي السلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add to cart"
+          }
+        }
+      }
+    },
+    "VoN-ew-yh5.text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاكثر مبيعاً"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,78 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "AlR-Ei-D7c.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Contact via email\"; ObjectID = \"AlR-Ei-D7c\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تواصل عبر الايميل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Contact via email"
+          }
+        }
+      }
+    },
+    "JOf-Tx-8Ej.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Contact via WhatsApp\"; ObjectID = \"JOf-Tx-8Ej\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تواصل عبر واتساب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Contact via WhatsApp"
+          }
+        }
+      }
+    },
+    "Y2v-rX-ojW.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Products\"; ObjectID = \"Y2v-rX-ojW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المنتجات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Products"
+          }
+        }
+      }
+    },
+    "ykd-tv-XRK.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Follow\"; ObjectID = \"ykd-tv-XRK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متابعة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Follow"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

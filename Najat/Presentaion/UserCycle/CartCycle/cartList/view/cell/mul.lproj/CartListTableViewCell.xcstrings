@@ -1,0 +1,54 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Soh-X5-Unv.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"View cart\"; ObjectID = \"Soh-X5-Unv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض السلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "View cart"
+          }
+        }
+      }
+    },
+    "t4q-3e-13E.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"5\"; ObjectID = \"t4q-3e-13E\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "5"
+          }
+        }
+      }
+    },
+    "ZWZ-cU-Rcu.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Number of products:\"; ObjectID = \"ZWZ-cU-Rcu\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عدد المنتجات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Number of products:"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

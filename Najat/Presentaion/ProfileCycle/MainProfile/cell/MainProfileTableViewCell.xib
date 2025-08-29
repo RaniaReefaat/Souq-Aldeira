@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansArabic_Condensed-Regular.ttf">
+            <string>NotoSansArabicCondensed-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="103" id="qSj-HN-oso" customClass="MainProfileTableViewCell" customModule="Najat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qSj-HN-oso" id="FaV-ui-BfJ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rPn-VL-X1Y">
+                        <rect key="frame" x="0.0" y="24" width="320" height="55"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="MVe-tR-uMS">
+                                <rect key="frame" x="16" y="2.6666666666666679" width="88" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NzX-Ha-oqh">
+                                        <rect key="frame" x="0.0" y="11.999999999999996" width="26" height="26.000000000000004"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="26" id="bte-Sl-lem"/>
+                                            <constraint firstAttribute="width" constant="26" id="tVN-mf-V5x"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1SU-kx-yTk" customClass="AppFontLabel" customModule="Najat" customModuleProvider="target">
+                                        <rect key="frame" x="38" y="0.0" width="50" height="50"/>
+                                        <fontDescription key="fontDescription" name="NotoSansArabicCondensed-Regular" family="Noto Sans Arabic Condensed" pointSize="16"/>
+                                        <color key="textColor" name="MainBlack"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                <real key="value" value="18"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRegular" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leftArrow" translatesAutoresizingMaskIntoConstraints="NO" id="otl-SR-4xb" customClass="FlipImageView" customModule="Najat" customModuleProvider="target">
+                                <rect key="frame" x="297" y="21.666666666666664" width="7" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="aCI-O8-TKg"/>
+                                    <constraint firstAttribute="width" constant="7" id="eQH-bd-GTK"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KoO-l0-ugt">
+                                <rect key="frame" x="16" y="54" width="288" height="1"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="w3t-pO-bjU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KoO-l0-ugt" firstAttribute="leading" secondItem="rPn-VL-X1Y" secondAttribute="leading" constant="16" id="NEz-1D-VeC"/>
+                            <constraint firstAttribute="bottom" secondItem="KoO-l0-ugt" secondAttribute="bottom" id="Vcn-Qy-Eb1"/>
+                            <constraint firstItem="MVe-tR-uMS" firstAttribute="leading" secondItem="rPn-VL-X1Y" secondAttribute="leading" constant="16" id="WyI-KS-lb6"/>
+                            <constraint firstAttribute="height" constant="55" id="XX8-PL-ngn"/>
+                            <constraint firstItem="otl-SR-4xb" firstAttribute="centerY" secondItem="rPn-VL-X1Y" secondAttribute="centerY" id="cOX-QI-746"/>
+                            <constraint firstAttribute="trailing" secondItem="otl-SR-4xb" secondAttribute="trailing" constant="16" id="eI0-5B-awQ"/>
+                            <constraint firstItem="MVe-tR-uMS" firstAttribute="centerY" secondItem="rPn-VL-X1Y" secondAttribute="centerY" id="gzs-zM-x5P"/>
+                            <constraint firstAttribute="trailing" secondItem="KoO-l0-ugt" secondAttribute="trailing" constant="16" id="yGq-On-hQX"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="viewBorderWidth">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="viewBorderColor">
+                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="rPn-VL-X1Y" firstAttribute="centerY" secondItem="FaV-ui-BfJ" secondAttribute="centerY" id="WyV-dd-4jO"/>
+                    <constraint firstItem="rPn-VL-X1Y" firstAttribute="centerX" secondItem="FaV-ui-BfJ" secondAttribute="centerX" id="wa0-Q0-00A"/>
+                    <constraint firstItem="rPn-VL-X1Y" firstAttribute="leading" secondItem="FaV-ui-BfJ" secondAttribute="leading" id="zke-Yc-Vaz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="IBQ-fd-YLP"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="arrowImageView" destination="otl-SR-4xb" id="yFj-U7-lQH"/>
+                <outlet property="cellImageView" destination="NzX-Ha-oqh" id="Evm-Ez-dui"/>
+                <outlet property="containerView" destination="rPn-VL-X1Y" id="3Di-ma-9sW"/>
+                <outlet property="nameLabel" destination="1SU-kx-yTk" id="3Er-GG-Xtn"/>
+            </connections>
+            <point key="canvasLocation" x="-18.320610687022899" y="-1.0563380281690142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="leftArrow" width="7" height="12"/>
+        <namedColor name="MainBlack">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

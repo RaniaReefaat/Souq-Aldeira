@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyAccountsViewController" customModule="Najat" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="LCZ-ld-RyR" id="BSf-V8-xdg"/>
+                <outlet property="tableView" destination="pBl-9L-bvC" id="tgx-dj-Dnl"/>
+                <outlet property="view" destination="9h8-Eb-XKQ" id="cQJ-dH-V13"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="9h8-Eb-XKQ">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="635"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YS4-b7-SAH">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="601"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="dismissButtonTapped:" destination="-1" eventType="touchUpInside" id="Kyv-PG-OCT"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LCZ-ld-RyR">
+                    <rect key="frame" x="0.0" y="59" width="414" height="542"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My accounts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ErY-Qu-MIA" customClass="AppFontLabel" customModule="Najat" customModuleProvider="target">
+                            <rect key="frame" x="24.999999999999993" y="25" width="97.333333333333314" height="20.333333333333329"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" name="MainBlack"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isRegular" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="18"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pBl-9L-bvC" customClass="ContentSizedTableView" customModule="Najat" customModuleProvider="target">
+                            <rect key="frame" x="14" y="61.333333333333343" width="386" height="472.66666666666663"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" name="MainBlue"/>
+                            <constraints>
+                                <constraint firstAttribute="height" priority="250" constant="150" id="h42-4R-YPu"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" name="BackColor"/>
+                    <constraints>
+                        <constraint firstItem="pBl-9L-bvC" firstAttribute="leading" secondItem="LCZ-ld-RyR" secondAttribute="leading" constant="14" id="2PC-Ic-Rda"/>
+                        <constraint firstItem="pBl-9L-bvC" firstAttribute="top" secondItem="ErY-Qu-MIA" secondAttribute="bottom" constant="16" id="Eo8-5v-B6e"/>
+                        <constraint firstItem="pBl-9L-bvC" firstAttribute="centerX" secondItem="LCZ-ld-RyR" secondAttribute="centerX" id="Kec-rJ-5UG"/>
+                        <constraint firstItem="ErY-Qu-MIA" firstAttribute="top" secondItem="LCZ-ld-RyR" secondAttribute="top" constant="25" id="NZY-uG-IFu"/>
+                        <constraint firstItem="ErY-Qu-MIA" firstAttribute="leading" secondItem="LCZ-ld-RyR" secondAttribute="leading" constant="25" id="Ss7-jd-Stx"/>
+                        <constraint firstAttribute="bottom" secondItem="pBl-9L-bvC" secondAttribute="bottom" constant="8" id="pwd-OS-4Fu"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="bzD-7h-Ye3"/>
+            <color key="backgroundColor" name="BackColor"/>
+            <constraints>
+                <constraint firstItem="LCZ-ld-RyR" firstAttribute="trailing" secondItem="bzD-7h-Ye3" secondAttribute="trailing" id="7xn-1a-5Hk"/>
+                <constraint firstItem="YS4-b7-SAH" firstAttribute="leading" secondItem="bzD-7h-Ye3" secondAttribute="leading" id="Wj0-x6-e9V"/>
+                <constraint firstItem="LCZ-ld-RyR" firstAttribute="top" secondItem="bzD-7h-Ye3" secondAttribute="top" id="ZRL-o7-2zD"/>
+                <constraint firstItem="YS4-b7-SAH" firstAttribute="top" secondItem="9h8-Eb-XKQ" secondAttribute="top" id="alH-fk-yJp"/>
+                <constraint firstItem="bzD-7h-Ye3" firstAttribute="bottom" secondItem="LCZ-ld-RyR" secondAttribute="bottom" id="feF-QL-Apf"/>
+                <constraint firstItem="bzD-7h-Ye3" firstAttribute="trailing" secondItem="YS4-b7-SAH" secondAttribute="trailing" id="p0j-Xr-wJg"/>
+                <constraint firstItem="LCZ-ld-RyR" firstAttribute="leading" secondItem="bzD-7h-Ye3" secondAttribute="leading" id="p8T-IL-0o1"/>
+                <constraint firstItem="bzD-7h-Ye3" firstAttribute="bottom" secondItem="YS4-b7-SAH" secondAttribute="bottom" id="tVb-0d-F1Z"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-38.167938931297705" y="211.61971830985917"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="BackColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MainBlack">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MainBlue">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

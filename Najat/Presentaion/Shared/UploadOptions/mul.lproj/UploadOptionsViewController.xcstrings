@@ -1,0 +1,60 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "cto-9X-iAm.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"I want to attach\"; ObjectID = \"cto-9X-iAm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أريد إرفاق"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "I want to attach"
+          }
+        }
+      }
+    },
+    "g73-BU-Lgb.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Files\"; ObjectID = \"g73-BU-Lgb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملفات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Files"
+          }
+        }
+      }
+    },
+    "h8m-nn-5ew.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"images\"; ObjectID = \"h8m-nn-5ew\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "صور"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "images"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Knv-X0-pG1.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Quantity: \"; ObjectID = \"Knv-X0-pG1\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكمية:"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Quantity: "
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

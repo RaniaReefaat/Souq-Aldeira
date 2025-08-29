@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="KalligArb-Medium.ttf">
+            <string>KalligArb-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="153" id="KGk-i7-Jjw" customClass="CartListTableViewCell" customModule="Najat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VOd-3o-fT7">
+                        <rect key="frame" x="0.0" y="5" width="320" height="65"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="yrA-Bz-hvY">
+                                <rect key="frame" x="11" y="10" width="184" height="69.333333333333329"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6kn-hc-i4g">
+                                        <rect key="frame" x="0.0" y="0.0" width="31" height="31"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bgt-7B-6nh">
+                                                <rect key="frame" x="0.0" y="0.0" width="31" height="31"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Bgt-7B-6nh" secondAttribute="trailing" id="A5P-eb-qty"/>
+                                            <constraint firstAttribute="width" constant="31" id="DB0-8T-Irm"/>
+                                            <constraint firstItem="Bgt-7B-6nh" firstAttribute="leading" secondItem="6kn-hc-i4g" secondAttribute="leading" id="bn9-gu-kcS"/>
+                                            <constraint firstAttribute="bottom" secondItem="Bgt-7B-6nh" secondAttribute="bottom" id="bwT-Ad-Qxr"/>
+                                            <constraint firstAttribute="height" constant="31" id="drl-F3-DTj"/>
+                                            <constraint firstItem="Bgt-7B-6nh" firstAttribute="top" secondItem="6kn-hc-i4g" secondAttribute="top" id="qRK-H3-swL"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isCircular" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="viewBorderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="viewBorderColor">
+                                                <color key="value" name="borderColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="t5x-3Z-qg9">
+                                        <rect key="frame" x="43" y="0.0" width="141" height="69.333333333333329"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNK-KV-ACL" customClass="AppFontLabel" customModule="Najat" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="141" height="50"/>
+                                                <fontDescription key="fontDescription" name="KalligArb-Medium" family="Kalligraaf Arabic" pointSize="16"/>
+                                                <color key="textColor" name="MainBlack"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isMedium" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="ctm-bu-nFF">
+                                                <rect key="frame" x="0.0" y="53" width="84.333333333333329" height="16.333333333333329"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of products:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWZ-cU-Rcu" customClass="AppFontLabel" customModule="Najat" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="76" height="16.333333333333332"/>
+                                                        <fontDescription key="fontDescription" name="KalligArb-Medium" family="Kalligraaf Arabic" pointSize="10"/>
+                                                        <color key="textColor" red="0.43137254901960786" green="0.43137254901960786" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isLight" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t4q-3e-13E" customClass="AppFontLabel" customModule="Najat" customModuleProvider="target">
+                                                        <rect key="frame" x="79" y="0.0" width="5.3333333333333286" height="16.333333333333332"/>
+                                                        <fontDescription key="fontDescription" name="KalligArb-Medium" family="Kalligraaf Arabic" pointSize="10"/>
+                                                        <color key="textColor" red="0.43137254899999999" green="0.43137254899999999" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isLight" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="gNK-KV-ACL" secondAttribute="trailing" id="9nk-d7-UQg"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Soh-X5-Unv" customClass="AppFontButton" customModule="Najat" customModuleProvider="target">
+                                <rect key="frame" x="203" y="16.666666666666671" width="100" height="32"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="L4c-Ki-2pG"/>
+                                    <constraint firstAttribute="width" constant="100" id="jSH-DH-Wjs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="View cart">
+                                    <color key="titleColor" name="MainBlack"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isMedium" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapCart:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Mhc-po-3cG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Soh-X5-Unv" secondAttribute="trailing" constant="17" id="V2p-8k-KQf"/>
+                            <constraint firstItem="yrA-Bz-hvY" firstAttribute="top" secondItem="VOd-3o-fT7" secondAttribute="top" constant="10" id="bAK-kN-P3Q"/>
+                            <constraint firstItem="Soh-X5-Unv" firstAttribute="centerY" secondItem="VOd-3o-fT7" secondAttribute="centerY" id="eC7-jM-7pk"/>
+                            <constraint firstItem="yrA-Bz-hvY" firstAttribute="leading" secondItem="VOd-3o-fT7" secondAttribute="leading" constant="11" id="p3x-Ed-Hva"/>
+                            <constraint firstItem="Soh-X5-Unv" firstAttribute="leading" secondItem="yrA-Bz-hvY" secondAttribute="trailing" constant="8" id="p9S-cH-uEn"/>
+                            <constraint firstAttribute="height" constant="65" id="yJQ-Pq-ldQ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="viewBorderColor">
+                                <color key="value" name="borderColor"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="viewBorderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="VOd-3o-fT7" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="cSs-4Z-s52"/>
+                    <constraint firstItem="VOd-3o-fT7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="enX-6g-kVk"/>
+                    <constraint firstItem="VOd-3o-fT7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="mVN-re-pP1"/>
+                    <constraint firstItem="VOd-3o-fT7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mtb-o6-2U7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cartButton" destination="Soh-X5-Unv" id="FYm-b5-uub"/>
+                <outlet property="marketLogoImageView" destination="Bgt-7B-6nh" id="bZs-5B-xvd"/>
+                <outlet property="marketNameLabel" destination="gNK-KV-ACL" id="Jyt-DW-pi0"/>
+                <outlet property="marketNumberLabel" destination="t4q-3e-13E" id="fHO-eK-miD"/>
+            </connections>
+            <point key="canvasLocation" x="-21.374045801526716" y="58.098591549295776"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="MainBlack">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="borderColor">
+            <color red="0.9570000171661377" green="0.9570000171661377" blue="0.9570000171661377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

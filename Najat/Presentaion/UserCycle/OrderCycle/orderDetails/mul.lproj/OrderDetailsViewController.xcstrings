@@ -1,0 +1,150 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "5HA-mD-gch.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Delivery Address :\"; ObjectID = \"5HA-mD-gch\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عنوان التوصيل : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Delivery Address :"
+          }
+        }
+      }
+    },
+    "5Ly-oX-jFI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Payment way :\"; ObjectID = \"5Ly-oX-jFI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وسيلة الدفع : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Payment way :"
+          }
+        }
+      }
+    },
+    "9Hz-u2-2ks.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Products\"; ObjectID = \"9Hz-u2-2ks\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المنتجات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Products"
+          }
+        }
+      }
+    },
+    "dQE-st-bkZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Merchant :\"; ObjectID = \"dQE-st-bkZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التاجر : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Merchant :"
+          }
+        }
+      }
+    },
+    "F2n-Zp-amv.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Total price :\"; ObjectID = \"F2n-Zp-amv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اجمالي المبلغ : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Total price :"
+          }
+        }
+      }
+    },
+    "fbm-D4-2MQ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Number of products :\"; ObjectID = \"fbm-D4-2MQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عدد المنتجات : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Number of products :"
+          }
+        }
+      }
+    },
+    "GPH-CF-FMi.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Status :\"; ObjectID = \"GPH-CF-FMi\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحالة :"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Status :"
+          }
+        }
+      }
+    },
+    "Nfd-2H-cfe.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Order number :\"; ObjectID = \"Nfd-2H-cfe\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الطلب : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Order number :"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

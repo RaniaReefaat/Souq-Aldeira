@@ -1,0 +1,84 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "1TE-x5-cs8.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Remove from cart\"; ObjectID = \"1TE-x5-cs8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف من السلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Remove from cart"
+          }
+        }
+      }
+    },
+    "4kj-h1-35W.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"-\"; ObjectID = \"4kj-h1-35W\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "-"
+          }
+        }
+      }
+    },
+    "mYg-aQ-CfL.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Add to favorites\"; ObjectID = \"mYg-aQ-CfL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافه للمفضلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add to favorites"
+          }
+        }
+      }
+    },
+    "sz5-C3-3Qx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1\"; ObjectID = \"sz5-C3-3Qx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1"
+          }
+        }
+      }
+    },
+    "yc6-nn-4B5.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Remove from favorites\"; ObjectID = \"yc6-nn-4B5\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف من المفضلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Remove from favorites"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

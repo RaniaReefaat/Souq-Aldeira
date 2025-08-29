@@ -1,0 +1,150 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "6Xr-bf-mvL.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Order number :\"; ObjectID = \"6Xr-bf-mvL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الطلب : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Order number :"
+          }
+        }
+      }
+    },
+    "24E-2s-7Kz.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Products\"; ObjectID = \"24E-2s-7Kz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المنتجات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Products"
+          }
+        }
+      }
+    },
+    "ey7-UI-Imm.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Delivery Address :\"; ObjectID = \"ey7-UI-Imm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عنوان التوصيل : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Delivery Address :"
+          }
+        }
+      }
+    },
+    "GcZ-p6-HHe.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Store :\"; ObjectID = \"GcZ-p6-HHe\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التاجر :"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Store :"
+          }
+        }
+      }
+    },
+    "JSq-PR-WNe.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Status:\"; ObjectID = \"JSq-PR-WNe\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحاله :"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Status:"
+          }
+        }
+      }
+    },
+    "oTq-vZ-nDN.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Payment way:\"; ObjectID = \"oTq-vZ-nDN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وسيلة الدفع : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Payment way:"
+          }
+        }
+      }
+    },
+    "Toh-wN-cwj.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Total price :\"; ObjectID = \"Toh-wN-cwj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اجمالي المبلغ : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Total price :"
+          }
+        }
+      }
+    },
+    "vLo-ve-shu.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Number of products:\"; ObjectID = \"vLo-ve-shu\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عدد المنتجات : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Number of products:"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

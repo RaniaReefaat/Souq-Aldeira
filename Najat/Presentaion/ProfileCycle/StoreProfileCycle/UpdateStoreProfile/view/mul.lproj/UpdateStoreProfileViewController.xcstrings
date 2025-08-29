@@ -1,0 +1,204 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "830-Y9-Pz8.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Choose delivery price\"; ObjectID = \"830-Y9-Pz8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر سعر التوصيل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Choose delivery price"
+          }
+        }
+      }
+    },
+    "aeb-PQ-WZx.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter name\"; ObjectID = \"aeb-PQ-WZx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل الاسم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter name"
+          }
+        }
+      }
+    },
+    "dSY-x2-76R.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Description\"; ObjectID = \"dSY-x2-76R\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوصف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Description"
+          }
+        }
+      }
+    },
+    "EZI-mt-PVX.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"name\"; ObjectID = \"EZI-mt-PVX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاسم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "name"
+          }
+        }
+      }
+    },
+    "fPp-sg-05o.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Delivery price\"; ObjectID = \"fPp-sg-05o\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سعر التوصيل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Delivery price"
+          }
+        }
+      }
+    },
+    "LMW-ai-jg3.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Contact number WhatsApp\"; ObjectID = \"LMW-ai-jg3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم واتساب التواصل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Contact number WhatsApp"
+          }
+        }
+      }
+    },
+    "QKF-zs-b8n.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter email\"; ObjectID = \"QKF-zs-b8n\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البريد الالكتروني"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter email"
+          }
+        }
+      }
+    },
+    "Y5l-lg-V6s.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"email\"; ObjectID = \"Y5l-lg-V6s\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البريد الالكتروني للتواصل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "email"
+          }
+        }
+      }
+    },
+    "YZ5-Dq-Qk5.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter number\"; ObjectID = \"YZ5-Dq-Qk5\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل الرقم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter number"
+          }
+        }
+      }
+    },
+    "ZLh-wC-O6w.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Save\"; ObjectID = \"ZLh-wC-O6w\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفظ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Save"
+          }
+        }
+      }
+    },
+    "zra-av-4Ci.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"-\"; ObjectID = \"zra-av-4Ci\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "-"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "-"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

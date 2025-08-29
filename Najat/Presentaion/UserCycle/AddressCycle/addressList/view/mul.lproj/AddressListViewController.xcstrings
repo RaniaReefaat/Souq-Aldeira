@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "vpi-p3-VjN.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Add a new address\"; ObjectID = \"vpi-p3-VjN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة عنوان جديد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add a new address"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

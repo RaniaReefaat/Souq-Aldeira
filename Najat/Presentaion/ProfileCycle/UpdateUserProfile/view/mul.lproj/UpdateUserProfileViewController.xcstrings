@@ -1,0 +1,132 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "86X-et-IL3.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"name\"; ObjectID = \"86X-et-IL3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاسم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "name"
+          }
+        }
+      }
+    },
+    "95u-eG-4Y2.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"-\"; ObjectID = \"95u-eG-4Y2\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "-"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "-"
+          }
+        }
+      }
+    },
+    "exS-Vs-Lul.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Description\"; ObjectID = \"exS-Vs-Lul\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوصف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Description"
+          }
+        }
+      }
+    },
+    "IbK-hZ-Yhl.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"phone number\"; ObjectID = \"IbK-hZ-Yhl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الهاتف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "phone number"
+          }
+        }
+      }
+    },
+    "iif-HO-khc.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Save\"; ObjectID = \"iif-HO-khc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفظ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Save"
+          }
+        }
+      }
+    },
+    "r4K-mD-W0y.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter phone\"; ObjectID = \"r4K-mD-W0y\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "ادخل رقم الهاتف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter phone"
+          }
+        }
+      }
+    },
+    "rjt-Bq-btp.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter name\"; ObjectID = \"rjt-Bq-btp\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل الاسم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter name"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

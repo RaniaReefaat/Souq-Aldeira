@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Gmn-aH-mlH"; */
+"Gmn-aH-mlH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "UnExpected Error, Please Try Again"; ObjectID = "IDb-Zm-6dB"; */
+"IDb-Zm-6dB.text" = "حدث خطا ما, من فضلك اعد المحاولة";
+
+/* Class = "UIButton"; normalTitle = "Try Again"; ObjectID = "ltY-hq-AM0"; */
+"ltY-hq-AM0.normalTitle" = "اعادة المحاوله";

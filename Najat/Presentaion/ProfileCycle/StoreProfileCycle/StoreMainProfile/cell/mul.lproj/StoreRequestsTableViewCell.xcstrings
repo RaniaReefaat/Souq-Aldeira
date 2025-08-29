@@ -1,0 +1,78 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CKn-bC-JGS.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"order number :\"; ObjectID = \"CKn-bC-JGS\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الطلب : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "order number :"
+          }
+        }
+      }
+    },
+    "KcU-Ks-Mhx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Client:\"; ObjectID = \"KcU-Ks-Mhx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العميل : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Client:"
+          }
+        }
+      }
+    },
+    "MiT-lP-5DC.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Number of products:\"; ObjectID = \"MiT-lP-5DC\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عدد المنتجات : "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Number of products:"
+          }
+        }
+      }
+    },
+    "oPB-Xb-QiF.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Accept the request\"; ObjectID = \"oPB-Xb-QiF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قبول الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Accept the request"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

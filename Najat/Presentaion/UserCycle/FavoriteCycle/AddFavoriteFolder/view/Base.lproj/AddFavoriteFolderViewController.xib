@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-Kalligraaf-Arabic-Bold.ttf">
+            <string>KalligArb-Bold</string>
+        </array>
+        <array key="KalligArb-Regular.ttf">
+            <string>KalligArb-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddFavoriteFolderViewController" customModule="Najat" customModuleProvider="target">
+            <connections>
+                <outlet property="nameTF" destination="gFz-u2-PjP" id="7wi-X6-PB8"/>
+                <outlet property="view" destination="5yZ-xv-PZP" id="TWi-9F-k0c"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="5yZ-xv-PZP">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tWW-rM-cZT">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="dismissButtonTapped:" destination="-1" eventType="touchUpOutside" id="n6t-9c-aCP"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sQf-e6-VdS">
+                    <rect key="frame" x="0.0" y="615" width="393" height="237"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cj-Nt-zxh" customClass="AppFontButton" customModule="Najat" customModuleProvider="target">
+                            <rect key="frame" x="16" y="160" width="361" height="32"/>
+                            <color key="backgroundColor" name="MainColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="Odt-vi-0gt"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Add">
+                                <color key="titleColor" name="MainWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="14"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isMedium" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="addFolderButtonTapped:" destination="-1" eventType="touchUpInside" id="KdH-vL-rZQ"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a new file" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57W-6b-vfJ" customClass="AppFontLabel" customModule="Najat" customModuleProvider="target">
+                            <rect key="frame" x="117.66666666666669" y="24" width="158" height="37"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="37" id="4Vu-a3-Lkg"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="KalligArb-Bold" family="Kalligraaf Arabic" pointSize="24"/>
+                            <color key="textColor" name="MainBlack"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                    <real key="value" value="18"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isRegular" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G1g-4B-kxA">
+                            <rect key="frame" x="16" y="97" width="361" height="44"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type the file name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gFz-u2-PjP" customClass="AppFontTextField" customModule="Najat" customModuleProvider="target">
+                                    <rect key="frame" x="12" y="8" width="337" height="28"/>
+                                    <color key="textColor" name="MainBlack"/>
+                                    <fontDescription key="fontDescription" name="KalligArb-Regular" family="Kalligraaf Arabic" pointSize="12"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                            <color key="value" name="PlaceHolderColor"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                            <real key="value" value="12"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="isRegular" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" name="MainWhite"/>
+                            <constraints>
+                                <constraint firstItem="gFz-u2-PjP" firstAttribute="centerY" secondItem="G1g-4B-kxA" secondAttribute="centerY" id="1jU-9l-lad"/>
+                                <constraint firstItem="gFz-u2-PjP" firstAttribute="top" secondItem="G1g-4B-kxA" secondAttribute="top" constant="8" id="ATH-Tm-NTO"/>
+                                <constraint firstItem="gFz-u2-PjP" firstAttribute="leading" secondItem="G1g-4B-kxA" secondAttribute="leading" constant="12" id="Aiu-mL-IQq"/>
+                                <constraint firstAttribute="height" constant="44" id="HDu-f4-Qrk"/>
+                                <constraint firstItem="gFz-u2-PjP" firstAttribute="centerX" secondItem="G1g-4B-kxA" secondAttribute="centerX" id="skI-Pv-TAZ"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="viewCornerRadius">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="viewBorderColor">
+                                    <color key="value" name="borderColor"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="viewBorderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="viewHasShadow" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" name="MainWhite"/>
+                    <constraints>
+                        <constraint firstItem="0cj-Nt-zxh" firstAttribute="top" secondItem="G1g-4B-kxA" secondAttribute="bottom" constant="19" id="DdH-f1-SEH"/>
+                        <constraint firstItem="G1g-4B-kxA" firstAttribute="trailing" secondItem="0cj-Nt-zxh" secondAttribute="trailing" id="MJl-o6-VOn"/>
+                        <constraint firstAttribute="trailing" secondItem="0cj-Nt-zxh" secondAttribute="trailing" constant="16" id="MaQ-AX-eY3"/>
+                        <constraint firstItem="57W-6b-vfJ" firstAttribute="centerX" secondItem="sQf-e6-VdS" secondAttribute="centerX" id="Nda-Fz-dZ4"/>
+                        <constraint firstItem="0cj-Nt-zxh" firstAttribute="leading" secondItem="sQf-e6-VdS" secondAttribute="leading" constant="16" id="Wvv-jh-94b"/>
+                        <constraint firstItem="G1g-4B-kxA" firstAttribute="leading" secondItem="0cj-Nt-zxh" secondAttribute="leading" id="cV8-6s-mNU"/>
+                        <constraint firstItem="G1g-4B-kxA" firstAttribute="top" secondItem="57W-6b-vfJ" secondAttribute="bottom" constant="36" id="mqJ-te-Kl6"/>
+                        <constraint firstAttribute="bottom" secondItem="0cj-Nt-zxh" secondAttribute="bottom" constant="45" id="myO-DA-Var"/>
+                        <constraint firstItem="57W-6b-vfJ" firstAttribute="top" secondItem="sQf-e6-VdS" secondAttribute="top" constant="24" id="pQu-oe-oIp"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="topCornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="6YT-RZ-dZC"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.49748785760000003" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6YT-RZ-dZC" firstAttribute="trailing" secondItem="sQf-e6-VdS" secondAttribute="trailing" id="Vll-eS-zQe"/>
+                <constraint firstItem="sQf-e6-VdS" firstAttribute="leading" secondItem="6YT-RZ-dZC" secondAttribute="leading" id="aKg-Jd-8Uf"/>
+                <constraint firstItem="tWW-rM-cZT" firstAttribute="top" secondItem="6YT-RZ-dZC" secondAttribute="top" id="btN-E3-9QX"/>
+                <constraint firstItem="6YT-RZ-dZC" firstAttribute="bottom" secondItem="tWW-rM-cZT" secondAttribute="bottom" id="eyd-vG-Eqc"/>
+                <constraint firstItem="tWW-rM-cZT" firstAttribute="leading" secondItem="6YT-RZ-dZC" secondAttribute="leading" id="fIK-MP-zax"/>
+                <constraint firstAttribute="bottom" secondItem="sQf-e6-VdS" secondAttribute="bottom" id="qRL-Mb-ggV"/>
+                <constraint firstItem="6YT-RZ-dZC" firstAttribute="trailing" secondItem="tWW-rM-cZT" secondAttribute="trailing" id="sN6-Ll-1tf"/>
+            </constraints>
+            <point key="canvasLocation" x="-19.083969465648853" y="19.014084507042256"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="MainBlack">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MainColor">
+            <color red="0.92199999094009399" green="0.0" blue="0.27799999713897705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MainWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PlaceHolderColor">
+            <color red="0.60000002384185791" green="0.60000002384185791" blue="0.60000002384185791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="borderColor">
+            <color red="0.9570000171661377" green="0.9570000171661377" blue="0.9570000171661377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

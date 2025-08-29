@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ggc-YR-hLZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"categories\"; ObjectID = \"ggc-YR-hLZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل الأقسام"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "categories"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

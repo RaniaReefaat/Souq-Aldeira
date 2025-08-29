@@ -1,0 +1,42 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Jrx-Qm-6pp.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"logout\"; ObjectID = \"Jrx-Qm-6pp\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل الخروج"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "logout"
+          }
+        }
+      }
+    },
+    "pDm-bf-eEC.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Delete account\"; ObjectID = \"pDm-bf-eEC\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "مسح الحساب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Delete account"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

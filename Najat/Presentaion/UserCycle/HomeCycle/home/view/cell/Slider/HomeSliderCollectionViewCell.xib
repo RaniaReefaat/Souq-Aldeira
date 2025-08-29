@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HomeSliderCollectionViewCell" customModule="Najat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="278" height="175"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="278" height="175"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="tql-Pj-S6W">
+                        <rect key="frame" x="0.0" y="5" width="278" height="165"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1lb-FT-5qT">
+                                <rect key="frame" x="0.0" y="0.0" width="278" height="165"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="MainWhite"/>
+                        <constraints>
+                            <constraint firstItem="1lb-FT-5qT" firstAttribute="top" secondItem="tql-Pj-S6W" secondAttribute="top" id="3Ls-9s-E2i"/>
+                            <constraint firstItem="1lb-FT-5qT" firstAttribute="leading" secondItem="tql-Pj-S6W" secondAttribute="leading" id="HMA-0S-IPZ"/>
+                            <constraint firstAttribute="bottom" secondItem="1lb-FT-5qT" secondAttribute="bottom" id="Z5R-rt-0Qw"/>
+                            <constraint firstAttribute="trailing" secondItem="1lb-FT-5qT" secondAttribute="trailing" id="jrB-kk-3DA"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="viewBorderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="viewBorderColor">
+                                <color key="value" name="PlaceHolderColor"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tql-Pj-S6W" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="FDg-C6-zRW"/>
+                <constraint firstItem="tql-Pj-S6W" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Iub-7H-jD0"/>
+                <constraint firstItem="tql-Pj-S6W" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tHk-zN-Khq"/>
+                <constraint firstItem="tql-Pj-S6W" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="tKd-LP-gBV"/>
+            </constraints>
+            <size key="customSize" width="278" height="175"/>
+            <connections>
+                <outlet property="containerView" destination="tql-Pj-S6W" id="c1f-Gf-SXp"/>
+                <outlet property="imageView" destination="1lb-FT-5qT" id="I3u-GO-QzA"/>
+            </connections>
+            <point key="canvasLocation" x="193.89312977099235" y="64.436619718309856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="MainWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PlaceHolderColor">
+            <color red="0.60000002384185791" green="0.60000002384185791" blue="0.60000002384185791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

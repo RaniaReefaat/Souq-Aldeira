@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-Regular.ttf">
+            <string>Almarai-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrivacyViewController" customModule="Najat" customModuleProvider="target">
+            <connections>
+                <outlet property="textView" destination="PLB-nT-hKE" id="rt8-Jp-raS"/>
+                <outlet property="view" destination="MNk-wJ-paG" id="nB8-3Y-DKG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="MNk-wJ-paG">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PLB-nT-hKE" customClass="AppFontTextView" customModule="Najat" customModuleProvider="target">
+                    <rect key="frame" x="16" y="83" width="361" height="735"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="textColor" name="MainTextBlack"/>
+                    <fontDescription key="fontDescription" name="Almarai-Regular" family="Almarai" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                            <real key="value" value="14"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isLight" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </textView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="rHK-Z1-WRH"/>
+            <color key="backgroundColor" name="BackColor"/>
+            <constraints>
+                <constraint firstItem="PLB-nT-hKE" firstAttribute="centerX" secondItem="MNk-wJ-paG" secondAttribute="centerX" id="0XP-eN-k5v"/>
+                <constraint firstItem="PLB-nT-hKE" firstAttribute="leading" secondItem="MNk-wJ-paG" secondAttribute="leading" constant="16" id="ECx-WF-qpv"/>
+                <constraint firstItem="rHK-Z1-WRH" firstAttribute="bottom" secondItem="PLB-nT-hKE" secondAttribute="bottom" id="VdG-bb-UDh"/>
+                <constraint firstItem="PLB-nT-hKE" firstAttribute="top" secondItem="rHK-Z1-WRH" secondAttribute="top" constant="24" id="myJ-tL-0IE"/>
+            </constraints>
+            <point key="canvasLocation" x="-16" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="BackColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MainTextBlack">
+            <color red="0.33300000429153442" green="0.3919999897480011" blue="0.47099998593330383" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

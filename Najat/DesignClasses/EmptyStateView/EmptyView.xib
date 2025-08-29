@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmptyView" customModule="Najat" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="EWl-gw-Xtd" id="HsX-tb-Xnd"/>
+                <outlet property="emptyStateBodyLabel" destination="FM0-Ll-Elb" id="amr-lZ-nAY"/>
+                <outlet property="emptyStateImage" destination="tMc-bR-acl" id="FGN-7M-W0Z"/>
+                <outlet property="emptyStateTitleLabel" destination="X2f-pC-f6V" id="GwA-sw-Vn4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="506"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWl-gw-Xtd">
+                    <rect key="frame" x="0.0" y="59" width="372" height="413"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="sVL-hC-ZVa">
+                            <rect key="frame" x="20" y="44" width="332" height="325.33333333333331"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tMc-bR-acl">
+                                    <rect key="frame" x="0.0" y="0.0" width="332" height="250"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="250" id="2eq-nL-V8G"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2f-pC-f6V">
+                                    <rect key="frame" x="0.0" y="266" width="332" height="21.666666666666686"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <color key="textColor" name="MainColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSizeEng">
+                                            <real key="value" value="22"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSizeAra">
+                                            <real key="value" value="22"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty Data" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FM0-Ll-Elb">
+                                    <rect key="frame" x="0.0" y="303.66666666666669" width="332" height="21.666666666666686"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                    <color key="textColor" name="mainBlack"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSizeEng">
+                                            <real key="value" value="18"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="fontSizeAra">
+                                            <real key="value" value="18"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" name="clearColor"/>
+                    <constraints>
+                        <constraint firstItem="sVL-hC-ZVa" firstAttribute="leading" secondItem="EWl-gw-Xtd" secondAttribute="leading" constant="20" id="CZI-ux-5iZ"/>
+                        <constraint firstItem="sVL-hC-ZVa" firstAttribute="centerX" secondItem="EWl-gw-Xtd" secondAttribute="centerX" id="Lh0-kA-QvB"/>
+                        <constraint firstItem="sVL-hC-ZVa" firstAttribute="centerY" secondItem="EWl-gw-Xtd" secondAttribute="centerY" id="mxO-ud-lYn"/>
+                        <constraint firstAttribute="trailing" secondItem="sVL-hC-ZVa" secondAttribute="trailing" constant="20" id="o0r-s0-Xxp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="lightGrayBackground"/>
+            <constraints>
+                <constraint firstItem="EWl-gw-Xtd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="6Tv-zg-Hbj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="EWl-gw-Xtd" secondAttribute="bottom" id="Qo6-e8-B44"/>
+                <constraint firstItem="EWl-gw-Xtd" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ZHc-aT-JQ5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="EWl-gw-Xtd" secondAttribute="trailing" id="m6d-tT-9mE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="123.66412213740458" y="141.5492957746479"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="MainColor">
+            <color red="0.92199999094009399" green="0.0" blue="0.27799999713897705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="clearColor">
+            <color red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="lightGrayBackground">
+            <color red="0.97600001096725464" green="0.97600001096725464" blue="0.97600001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="mainBlack">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

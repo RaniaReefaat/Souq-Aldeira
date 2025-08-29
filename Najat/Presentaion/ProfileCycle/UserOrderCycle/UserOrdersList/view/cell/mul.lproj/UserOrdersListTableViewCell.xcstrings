@@ -1,0 +1,42 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "aRg-cr-dyi.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"product\"; ObjectID = \"aRg-cr-dyi\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "منتج"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "product"
+          }
+        }
+      }
+    },
+    "ztB-lv-QB8.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Total request:\"; ObjectID = \"ztB-lv-QB8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إجمالي الطلب :"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Total request:"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

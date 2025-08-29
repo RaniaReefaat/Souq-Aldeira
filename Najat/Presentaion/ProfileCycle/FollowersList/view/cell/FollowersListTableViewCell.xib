@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="KalligArb-Medium.ttf">
+            <string>KalligArb-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="cLh-A2-ONZ" customClass="FollowersListTableViewCell" customModule="Najat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cLh-A2-ONZ" id="K2W-16-JSr">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="JEw-Cw-nIE">
+                        <rect key="frame" x="0.0" y="6.6666666666666679" width="320" height="31.000000000000004"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaT-nu-2oX">
+                                <rect key="frame" x="0.0" y="0.0" width="31" height="31"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="skA-fC-cdu">
+                                        <rect key="frame" x="0.0" y="0.0" width="31" height="31"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="skA-fC-cdu" firstAttribute="leading" secondItem="yaT-nu-2oX" secondAttribute="leading" id="6Hc-DH-JIs"/>
+                                    <constraint firstAttribute="trailing" secondItem="skA-fC-cdu" secondAttribute="trailing" id="7nD-WH-zPY"/>
+                                    <constraint firstAttribute="width" constant="31" id="8i4-zK-Pks"/>
+                                    <constraint firstAttribute="bottom" secondItem="skA-fC-cdu" secondAttribute="bottom" id="khg-4S-AxU"/>
+                                    <constraint firstItem="skA-fC-cdu" firstAttribute="top" secondItem="yaT-nu-2oX" secondAttribute="top" id="nTs-BS-80C"/>
+                                    <constraint firstAttribute="height" constant="31" id="wwL-Ax-Kxi"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isCircular" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="viewBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="viewBorderColor">
+                                        <color key="value" name="borderColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jen-JK-5k2" customClass="AppFontLabel" customModule="Najat" customModuleProvider="target">
+                                <rect key="frame" x="43" y="0.0" width="277" height="31"/>
+                                <fontDescription key="fontDescription" name="KalligArb-Medium" family="Kalligraaf Arabic" pointSize="16"/>
+                                <color key="textColor" name="MainBlack"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isMedium" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8sN-Or-PSI">
+                        <rect key="frame" x="0.0" y="43" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Nh4-WL-9EL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="JEw-Cw-nIE" firstAttribute="centerX" secondItem="K2W-16-JSr" secondAttribute="centerX" id="0Vy-OP-rfz"/>
+                    <constraint firstItem="JEw-Cw-nIE" firstAttribute="centerY" secondItem="K2W-16-JSr" secondAttribute="centerY" id="2WV-7B-nlQ"/>
+                    <constraint firstItem="8sN-Or-PSI" firstAttribute="leading" secondItem="K2W-16-JSr" secondAttribute="leading" id="8ff-sU-5Ar"/>
+                    <constraint firstAttribute="trailing" secondItem="8sN-Or-PSI" secondAttribute="trailing" id="C13-y0-YFA"/>
+                    <constraint firstItem="JEw-Cw-nIE" firstAttribute="leading" secondItem="K2W-16-JSr" secondAttribute="leading" id="i6f-mk-aO8"/>
+                    <constraint firstAttribute="bottom" secondItem="8sN-Or-PSI" secondAttribute="bottom" id="u2J-0b-c6i"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="laA-O1-PcO"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="storeImageView" destination="skA-fC-cdu" id="nze-Mm-dDH"/>
+                <outlet property="storeNameLabel" destination="jen-JK-5k2" id="zgR-Sk-TlP"/>
+            </connections>
+            <point key="canvasLocation" x="18" y="21"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="MainBlack">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="borderColor">
+            <color red="0.9570000171661377" green="0.9570000171661377" blue="0.9570000171661377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

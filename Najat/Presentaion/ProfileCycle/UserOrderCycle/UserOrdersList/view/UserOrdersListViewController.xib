@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserOrdersListViewController" customModule="Najat" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="MQc-LZ-amt" id="piR-F9-Rl3"/>
+                <outlet property="view" destination="plA-eq-amj" id="dHJ-bw-JWK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="plA-eq-amj">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="MQc-LZ-amt">
+                    <rect key="frame" x="16" y="67" width="361" height="751"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Jlx-EF-AID"/>
+            <color key="backgroundColor" name="BackColor"/>
+            <constraints>
+                <constraint firstItem="MQc-LZ-amt" firstAttribute="top" secondItem="Jlx-EF-AID" secondAttribute="top" constant="8" id="bPl-hZ-mVo"/>
+                <constraint firstItem="MQc-LZ-amt" firstAttribute="centerX" secondItem="plA-eq-amj" secondAttribute="centerX" id="lA5-ao-9hB"/>
+                <constraint firstItem="MQc-LZ-amt" firstAttribute="leading" secondItem="Jlx-EF-AID" secondAttribute="leading" constant="16" id="qPw-2d-pCs"/>
+                <constraint firstItem="Jlx-EF-AID" firstAttribute="bottom" secondItem="MQc-LZ-amt" secondAttribute="bottom" id="uab-wE-DEX"/>
+            </constraints>
+            <point key="canvasLocation" x="-22" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="BackColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

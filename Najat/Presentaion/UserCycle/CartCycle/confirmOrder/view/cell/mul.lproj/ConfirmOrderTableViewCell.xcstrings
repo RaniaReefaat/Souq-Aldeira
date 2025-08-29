@@ -1,0 +1,36 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "TB6-uO-jKW.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Quantity: \"; ObjectID = \"TB6-uO-jKW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكمية :"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Quantity: "
+          }
+        }
+      }
+    },
+    "Xao-Mo-jJR.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"3\"; ObjectID = \"Xao-Mo-jJR\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "3"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

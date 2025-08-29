@@ -1,0 +1,96 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ArD-93-tta.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Create a store\"; ObjectID = \"ArD-93-tta\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء متجر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Create a store"
+          }
+        }
+      }
+    },
+    "fR1-eC-YvE.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Edit Profile\"; ObjectID = \"fR1-eC-YvE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعديل الملف الشخصي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Edit Profile"
+          }
+        }
+      }
+    },
+    "N2B-GW-F0x.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Favorite Products\"; ObjectID = \"N2B-GW-F0x\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المنتجات المفضلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Favorite Products"
+          }
+        }
+      }
+    },
+    "SD6-dv-4oi.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Share profile\"; ObjectID = \"SD6-dv-4oi\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ".."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Share profile"
+          }
+        }
+      }
+    },
+    "vCu-Vm-Lox.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Followed Stores\"; ObjectID = \"vCu-Vm-Lox\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المتاجر المتابعة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Followed Stores"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

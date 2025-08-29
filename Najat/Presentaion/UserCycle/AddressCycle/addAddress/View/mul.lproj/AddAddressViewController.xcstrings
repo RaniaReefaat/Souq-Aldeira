@@ -1,0 +1,132 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "4rf-MG-GIo.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Add\"; ObjectID = \"4rf-MG-GIo\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add"
+          }
+        }
+      }
+    },
+    "5pD-9H-1Bg.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Address name\"; ObjectID = \"5pD-9H-1Bg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم العنوان"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Address name"
+          }
+        }
+      }
+    },
+    "dSM-AK-ezA.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Region\"; ObjectID = \"dSM-AK-ezA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المنطقة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Region"
+          }
+        }
+      }
+    },
+    "fTY-Ha-X10.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Location\"; ObjectID = \"fTY-Ha-X10\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنوان"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Location"
+          }
+        }
+      }
+    },
+    "jFl-uA-BbO.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"House number\"; ObjectID = \"jFl-uA-BbO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم المنزل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "House number"
+          }
+        }
+      }
+    },
+    "riL-7F-ghu.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Apartment number\"; ObjectID = \"riL-7F-ghu\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الشقة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Apartment number"
+          }
+        }
+      }
+    },
+    "Ucc-z9-tb0.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Street number\"; ObjectID = \"Ucc-z9-tb0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الشارع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Street number"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

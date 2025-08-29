@@ -1,0 +1,60 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "bvw-RN-gTK.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"+ Create a new file\"; ObjectID = \"bvw-RN-gTK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+  إنشاء ملف جديد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+ Create a new file"
+          }
+        }
+      }
+    },
+    "dq7-Qq-jFA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Add to like\"; ObjectID = \"dq7-Qq-jFA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضف للإعجابات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add to like"
+          }
+        }
+      }
+    },
+    "KaK-1l-qzI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Select the file you want to add to it.\"; ObjectID = \"KaK-1l-qzI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر الملف التي تريد الاضافة بداخلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Select the file you want to add to it."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,108 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "5en-oJ-Zcm.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"You did not receive code?\"; ObjectID = \"5en-oJ-Zcm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يصلك كود التفعيل ؟ "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "You did not receive code?"
+          }
+        }
+      }
+    },
+    "7R8-AR-IK0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"We sent you the activation code via WhatsApp\"; ObjectID = \"7R8-AR-IK0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ارسلنا لك كود التفعيل عبر الواتساب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "We sent you the activation code via WhatsApp"
+          }
+        }
+      }
+    },
+    "FBJ-41-Vm0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"0\"; ObjectID = \"FBJ-41-Vm0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "0"
+          }
+        }
+      }
+    },
+    "OFf-jM-hog.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"resend\"; ObjectID = \"OFf-jM-hog\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ارسال كود جديد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "resend"
+          }
+        }
+      }
+    },
+    "rmg-Fo-LEt.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Verify\"; ObjectID = \"rmg-Fo-LEt\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحقق"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Verify"
+          }
+        }
+      }
+    },
+    "Sq2-K9-JqR.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"activation code\"; ObjectID = \"Sq2-K9-JqR\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كود التفعيل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "activation code"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

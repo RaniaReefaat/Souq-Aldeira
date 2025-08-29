@@ -1,0 +1,96 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "6ic-wL-ps9.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Contact via email\"; ObjectID = \"6ic-wL-ps9\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تواصل عبر الايميل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Contact via email"
+          }
+        }
+      }
+    },
+    "C6q-Fm-8oP.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Follow\"; ObjectID = \"C6q-Fm-8oP\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متابعة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Follow"
+          }
+        }
+      }
+    },
+    "gim-Xc-aLQ.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"UnFollow\"; ObjectID = \"gim-Xc-aLQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء المتابعة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "UnFollow"
+          }
+        }
+      }
+    },
+    "Jvg-F7-Bja.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Products\"; ObjectID = \"Jvg-F7-Bja\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المنتجات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Products"
+          }
+        }
+      }
+    },
+    "xVr-Gq-9bV.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Contact via WhatsApp\"; ObjectID = \"xVr-Gq-9bV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تواصل عبر واتساب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Contact via WhatsApp"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

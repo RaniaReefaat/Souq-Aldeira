@@ -1,0 +1,186 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "2Ys-9G-EEr.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"I agree to\"; ObjectID = \"2Ys-9G-EEr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أوافق علي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "I agree to"
+          }
+        }
+      }
+    },
+    "4mu-PZ-5Fc.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter your phone number\"; ObjectID = \"4mu-PZ-5Fc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل رقم الهاتف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter your phone number"
+          }
+        }
+      }
+    },
+    "aKu-Et-OGa.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Already have an account?\"; ObjectID = \"aKu-Et-OGa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لديك حساب بالفعل ؟ "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Already have an account?"
+          }
+        }
+      }
+    },
+    "dXR-OM-JTd.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter your full name\"; ObjectID = \"dXR-OM-JTd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل الاسم بالكامل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter your full name"
+          }
+        }
+      }
+    },
+    "Huc-HB-Ahs.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Login\"; ObjectID = \"Huc-HB-Ahs\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " تسجيل دخول"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Login"
+          }
+        }
+      }
+    },
+    "Jv3-rr-VpD.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Confirm\"; ObjectID = \"Jv3-rr-VpD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تأكيد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Confirm"
+          }
+        }
+      }
+    },
+    "kBI-vi-tQP.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Create an account\"; ObjectID = \"kBI-vi-tQP\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء حساب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Create an account"
+          }
+        }
+      }
+    },
+    "KCz-1R-XxY.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Name\"; ObjectID = \"KCz-1R-XxY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الاسم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "oIC-p7-l9E.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"the terms and conditions\"; ObjectID = \"oIC-p7-l9E\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الشروط والاحكام"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "the terms and conditions"
+          }
+        }
+      }
+    },
+    "vw9-KS-tb6.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Phone number\"; ObjectID = \"vw9-KS-tb6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "رقم الهاتف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Phone number"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

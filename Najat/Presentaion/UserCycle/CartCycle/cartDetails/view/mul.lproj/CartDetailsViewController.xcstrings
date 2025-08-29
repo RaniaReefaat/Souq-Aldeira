@@ -1,0 +1,150 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CqL-AW-a9l.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Delivery Charge\"; ObjectID = \"CqL-AW-a9l\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رسوم التوصيل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Delivery Charge"
+          }
+        }
+      }
+    },
+    "i5N-hx-dmG.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Continue\"; ObjectID = \"i5N-hx-dmG\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "متابعة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Continue"
+          }
+        }
+      }
+    },
+    "Lf0-Dk-kT9.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Products\"; ObjectID = \"Lf0-Dk-kT9\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المنتجات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Products"
+          }
+        }
+      }
+    },
+    "s0h-Ul-B9i.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Payment summary\"; ObjectID = \"s0h-Ul-B9i\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملخص الدفع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Payment summary"
+          }
+        }
+      }
+    },
+    "sh2-n8-Uxo.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Notes on the order\"; ObjectID = \"sh2-n8-Uxo\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظات على الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Notes on the order"
+          }
+        }
+      }
+    },
+    "Sma-wi-DVQ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Total\"; ObjectID = \"Sma-wi-DVQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإجمالي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Total"
+          }
+        }
+      }
+    },
+    "v9s-tA-qxV.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Add more\"; ObjectID = \"v9s-tA-qxV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة المزيد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add more"
+          }
+        }
+      }
+    },
+    "yCo-YY-wV1.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Total products\"; ObjectID = \"yCo-YY-wV1\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إجمالي المنتجات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Total products"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ErY-Qu-MIA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"My accounts\"; ObjectID = \"ErY-Qu-MIA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حساباتي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "My accounts"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,60 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "j5o-xQ-Sae.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Language\"; ObjectID = \"j5o-xQ-Sae\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اللغة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Language"
+          }
+        }
+      }
+    },
+    "muD-Db-3A1.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Notifications\"; ObjectID = \"muD-Db-3A1\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاشعارات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Notifications"
+          }
+        }
+      }
+    },
+    "Ngx-St-2t8.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"arabic\"; ObjectID = \"Ngx-St-2t8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اللغه العربيه"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "arabic"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

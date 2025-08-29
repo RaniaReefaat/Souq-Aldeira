@@ -1,0 +1,54 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "8Lg-ae-Pnq.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Verify\"; ObjectID = \"8Lg-ae-Pnq\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحقق"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Verify"
+          }
+        }
+      }
+    },
+    "9Ly-Bw-HVh.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter phone\"; ObjectID = \"9Ly-Bw-HVh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل رقم الهاتف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter phone"
+          }
+        }
+      }
+    },
+    "y3b-g4-34g.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"phone number\"; ObjectID = \"y3b-g4-34g\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "phone number"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,294 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "0cr-cx-euu.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Choose another address\"; ObjectID = \"0cr-cx-euu\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر عنوان اخر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Choose another address"
+          }
+        }
+      }
+    },
+    "5FQ-rJ-Wuj.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Home\"; ObjectID = \"5FQ-rJ-Wuj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Home"
+          }
+        }
+      }
+    },
+    "7y9-nd-VDJ.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"remove\"; ObjectID = \"7y9-nd-VDJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "remove"
+          }
+        }
+      }
+    },
+    "9m2-VU-gDy.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Pay\"; ObjectID = \"9m2-VU-gDy\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الدفع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pay"
+          }
+        }
+      }
+    },
+    "22g-4t-hlR.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Home\"; ObjectID = \"22g-4t-hlR\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Home"
+          }
+        }
+      }
+    },
+    "bNP-Uh-s97.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Products\"; ObjectID = \"bNP-Uh-s97\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المنتجات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Products"
+          }
+        }
+      }
+    },
+    "FpY-2B-Scl.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Payment summary\"; ObjectID = \"FpY-2B-Scl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملخص الدفع"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Payment summary"
+          }
+        }
+      }
+    },
+    "Hkh-Gt-lp6.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Discount coupon\"; ObjectID = \"Hkh-Gt-lp6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خصم الكوبون"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Discount coupon"
+          }
+        }
+      }
+    },
+    "NMR-Rh-dlI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Notes on the order\"; ObjectID = \"NMR-Rh-dlI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظات على الطلب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Notes on the order"
+          }
+        }
+      }
+    },
+    "qUT-H6-8aZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Delivery Address\"; ObjectID = \"qUT-H6-8aZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عنوان التوصيل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Delivery Address"
+          }
+        }
+      }
+    },
+    "ReV-nX-o7s.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter the coupon\"; ObjectID = \"ReV-nX-o7s\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل الكوبون"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter the coupon"
+          }
+        }
+      }
+    },
+    "SC1-YN-MjE.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Total products\"; ObjectID = \"SC1-YN-MjE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اجمالي الطلبات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Total products"
+          }
+        }
+      }
+    },
+    "sx5-Hf-cbz.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Delivery Charge\"; ObjectID = \"sx5-Hf-cbz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رسوم التوصيل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Delivery Charge"
+          }
+        }
+      }
+    },
+    "ufO-fs-VI6.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Payment methods\"; ObjectID = \"ufO-fs-VI6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Payment methods"
+          }
+        }
+      }
+    },
+    "xqm-6Y-fpD.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"activation\"; ObjectID = \"xqm-6Y-fpD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفعيل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "activation"
+          }
+        }
+      }
+    },
+    "Yw6-Ol-Vzx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Total\"; ObjectID = \"Yw6-Ol-Vzx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاجمالي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Total"
+          }
+        }
+      }
+    },
+    "ZuA-Km-maa.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Discount\"; ObjectID = \"ZuA-Km-maa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الخصم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Discount"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

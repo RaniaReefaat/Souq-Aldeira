@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "50299785-AC16-4071-A4AF-ED0A5D96C281"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE4DF9E1-DCF7-487D-A0F3-EBA12277562F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Najat/Presentaion/UserCycle/AddressCycle/addAddress/View/AddAddressViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "bindReloadViews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "062C0B39-9C2C-4F62-8C70-D3185C27AF22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Najat/Presentaion/UserCycle/AddressCycle/addAddress/ViewModel/AddAddressViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "addAddress(body:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CED8E311-675E-4B53-B5F8-45B9BD6A66E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Najat/Presentaion/UserCycle/AddressCycle/addAddress/View/AddAddressViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "bindReloadViews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CED8E311-675E-4B53-B5F8-45B9BD6A66E3 - e88fdf6a65e56fd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in Najat.AddAddressViewController.bindReloadViews() -&gt; ()"
+                  moduleName = "Najat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahrous/Desktop/najat/Najat/Presentaion/UserCycle/AddressCycle/addAddress/View/AddAddressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101">
+               </Location>
+               <Location
+                  uuid = "CED8E311-675E-4B53-B5F8-45B9BD6A66E3 - e88fdf6a65e56fd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in Najat.AddAddressViewController.bindReloadViews() -&gt; ()"
+                  moduleName = "Najat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahrous/Desktop/najat/Najat/Presentaion/UserCycle/AddressCycle/addAddress/View/AddAddressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83BCA817-483D-42A4-AECC-ADE7F30F791F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Najat/Domain/UserProfile/UseCase/UserProfileUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "createStore(body:data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "83BCA817-483D-42A4-AECC-ADE7F30F791F - 7da3f2b478d81b55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Najat.UserProfileUseCase.createStore(body: Najat.CreateStoreBody, data: Swift.Array&lt;Najat.UploadData&gt;) async -&gt; Swift.Result&lt;Najat.BaseResponse&lt;Najat.EmptyData&gt;, Najat.MyAppError&gt;"
+                  moduleName = "Najat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahrous/Desktop/najat/Najat/Domain/UserProfile/UseCase/UserProfileUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72">
+               </Location>
+               <Location
+                  uuid = "83BCA817-483D-42A4-AECC-ADE7F30F791F - 19816a64f8a0cb2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Najat.UserProfileUseCase.createStore(body: Najat.CreateStoreBody, data: Swift.Array&lt;Najat.UploadData&gt;) async -&gt; Swift.Result&lt;Najat.BaseResponse&lt;Najat.EmptyData&gt;, Najat.MyAppError&gt;"
+                  moduleName = "Najat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahrous/Desktop/najat/Najat/Domain/UserProfile/UseCase/UserProfileUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72">
+               </Location>
+               <Location
+                  uuid = "83BCA817-483D-42A4-AECC-ADE7F30F791F - 3885c0a882e75f5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Najat.UserProfileUseCase.createStore(body: Najat.CreateStoreBody, data: Swift.Array&lt;Najat.UploadData&gt;) async -&gt; Swift.Result&lt;Najat.BaseResponse&lt;Najat.EmptyData&gt;, Najat.MyAppError&gt;"
+                  moduleName = "Najat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahrous/Desktop/najat/Najat/Domain/UserProfile/UseCase/UserProfileUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9938B3A-F88C-4729-803D-EC83FD78E3DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Najat/Domain/UserProfile/UseCase/UserProfileUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "createStore(body:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4936367-09F3-4AD4-8809-F49D0CB539FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Najat/Presentaion/ProfileCycle/AddItem/view/AddItemViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "setupItemDetails()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

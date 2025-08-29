@@ -1,0 +1,108 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "E2R-XQ-JgD.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"0\"; ObjectID = \"E2R-XQ-JgD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "0"
+          }
+        }
+      }
+    },
+    "fhR-5J-jjW.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"You did not receive code?\"; ObjectID = \"fhR-5J-jjW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يصلك كود التفعيل ؟ "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "You did not receive code?"
+          }
+        }
+      }
+    },
+    "h7h-mw-jrx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"activation code\"; ObjectID = \"h7h-mw-jrx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كود التفعيل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "activation code"
+          }
+        }
+      }
+    },
+    "I9E-Eh-tqL.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Verify\"; ObjectID = \"I9E-Eh-tqL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحقق"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Verify"
+          }
+        }
+      }
+    },
+    "Pbi-4Z-IWh.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"resend\"; ObjectID = \"Pbi-4Z-IWh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ارسال كود جديد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "resend"
+          }
+        }
+      }
+    },
+    "TEl-if-boL.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"We sent you the activation code via WhatsApp\"; ObjectID = \"TEl-if-boL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ارسلنا لك كود التفعيل عبر الواتساب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "We sent you the activation code via WhatsApp"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

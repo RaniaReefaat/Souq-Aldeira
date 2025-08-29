@@ -1,0 +1,108 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "1sG-ck-2Cg.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Contact us via WhatsApp to buy\"; ObjectID = \"1sG-ck-2Cg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "تواصل عبر واتساب للشراء"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Contact us via WhatsApp to buy"
+          }
+        }
+      }
+    },
+    "2KQ-Ci-dc4.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Contact via email\"; ObjectID = \"2KQ-Ci-dc4\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تواصل عبر الايميل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Contact via email"
+          }
+        }
+      }
+    },
+    "4hA-WD-cpK.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Edit Item\"; ObjectID = \"4hA-WD-cpK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعديل المنتج"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Edit Item"
+          }
+        }
+      }
+    },
+    "Kec-YC-jdi.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"best seller\"; ObjectID = \"Kec-YC-jdi\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "best seller"
+          }
+        }
+      }
+    },
+    "miu-pY-09P.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Likes\"; ObjectID = \"miu-pY-09P\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل إعجاب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Likes"
+          }
+        }
+      }
+    },
+    "sVp-Zu-tNh.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Add to cart\"; ObjectID = \"sVp-Zu-tNh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة إلي السلة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add to cart"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

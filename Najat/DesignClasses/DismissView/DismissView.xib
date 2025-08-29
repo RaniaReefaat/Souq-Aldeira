@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DismissView" customModule="Innova" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="NQj-0d-a60" id="Sge-Ks-skD"/>
+                <outlet property="dismissButton" destination="l6Y-v1-Scw" id="1Gn-Mm-qgk"/>
+                <outlet property="headerTitleLabel" destination="SNF-Wd-TJC" id="pNe-Xc-DwO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="516" height="110"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQj-0d-a60">
+                    <rect key="frame" x="0.0" y="0.0" width="516" height="110"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNF-Wd-TJC">
+                            <rect key="frame" x="24" y="52.666666666666664" width="0.0" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <color key="textColor" name="blackColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSizeEng">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="fontSizeAra">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6Y-v1-Scw">
+                            <rect key="frame" x="447" y="30" width="45" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="45" id="SNk-Jf-DnM"/>
+                                <constraint firstAttribute="height" constant="45" id="rlb-VP-GgE"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="deleteIcon"/>
+                            <connections>
+                                <action selector="didTapDismiss:" destination="-1" eventType="touchUpInside" id="GwM-g8-ZbZ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="9TL-1U-LII"/>
+                    <color key="backgroundColor" name="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="SNF-Wd-TJC" firstAttribute="centerY" secondItem="l6Y-v1-Scw" secondAttribute="centerY" id="1VN-nl-HOi"/>
+                        <constraint firstItem="l6Y-v1-Scw" firstAttribute="top" secondItem="NQj-0d-a60" secondAttribute="top" constant="30" id="EMx-Q4-BWm"/>
+                        <constraint firstItem="l6Y-v1-Scw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SNF-Wd-TJC" secondAttribute="trailing" constant="10" id="ceW-sp-SoT"/>
+                        <constraint firstItem="9TL-1U-LII" firstAttribute="trailing" secondItem="l6Y-v1-Scw" secondAttribute="trailing" constant="24" id="gpm-Hc-VQk"/>
+                        <constraint firstItem="SNF-Wd-TJC" firstAttribute="leading" secondItem="NQj-0d-a60" secondAttribute="leading" constant="24" id="sRJ-hO-T7g"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="topCornerRadius">
+                            <real key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="whiteColor"/>
+            <constraints>
+                <constraint firstItem="NQj-0d-a60" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="C3H-hL-hPz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NQj-0d-a60" secondAttribute="trailing" id="bP8-g8-yR1"/>
+                <constraint firstItem="NQj-0d-a60" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="r64-zV-WPD"/>
+                <constraint firstAttribute="bottom" secondItem="NQj-0d-a60" secondAttribute="bottom" id="vUA-62-7wI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="224.42748091603053" y="-274.64788732394368"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="deleteIcon" width="34" height="34"/>
+        <namedColor name="blackColor">
+            <color red="0.090000003576278687" green="0.090000003576278687" blue="0.090000003576278687" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="whiteColor">
+            <color red="0.99199998378753662" green="0.99199998378753662" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

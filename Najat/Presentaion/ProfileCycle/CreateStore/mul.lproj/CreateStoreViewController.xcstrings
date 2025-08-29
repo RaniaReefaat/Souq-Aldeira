@@ -1,0 +1,240 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "0CN-D7-mJf.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Contact Email\"; ObjectID = \"0CN-D7-mJf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البريد الالكتروني للتواصل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Contact Email"
+          }
+        }
+      }
+    },
+    "0ms-jq-IBm.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Name\"; ObjectID = \"0ms-jq-IBm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الاسم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "4ar-QD-KPM.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Store Logo\"; ObjectID = \"4ar-QD-KPM\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "صورة شعار المتجر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Store Logo"
+          }
+        }
+      }
+    },
+    "7bZ-Eb-4yq.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter WhatsApp contact number\"; ObjectID = \"7bZ-Eb-4yq\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل رقم واتساب التواصل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter WhatsApp contact number"
+          }
+        }
+      }
+    },
+    "AJR-wI-wEF.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Store License File\"; ObjectID = \"AJR-wI-wEF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملف ترخيص المتجر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Store License File"
+          }
+        }
+      }
+    },
+    "Ef4-VP-jQK.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"WhatsApp contact number\"; ObjectID = \"Ef4-VP-jQK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم واتساب التواصل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "WhatsApp contact number"
+          }
+        }
+      }
+    },
+    "GQO-pn-edV.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter contact Email\"; ObjectID = \"GQO-pn-edV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البريد الالكتروني للتواصل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter contact Email"
+          }
+        }
+      }
+    },
+    "gwj-5R-Zn0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Description\"; ObjectID = \"gwj-5R-Zn0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الوصف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Description"
+          }
+        }
+      }
+    },
+    "irF-4i-vx5.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter name\"; ObjectID = \"irF-4i-vx5\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل الاسم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter name"
+          }
+        }
+      }
+    },
+    "oVw-QP-FKF.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Delivery price\"; ObjectID = \"oVw-QP-FKF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سعر التوصيل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Delivery price"
+          }
+        }
+      }
+    },
+    "pye-nH-gIO.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Store License File\"; ObjectID = \"pye-nH-gIO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملف ترخيص المتجر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Store License File"
+          }
+        }
+      }
+    },
+    "rCE-We-QMH.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Create\"; ObjectID = \"rCE-We-QMH\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Create"
+          }
+        }
+      }
+    },
+    "vOY-63-B4n.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Choose delivery price\"; ObjectID = \"vOY-63-B4n\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر سعر التوصيل"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Choose delivery price"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

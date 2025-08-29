@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "5F9-dE-4Q3"; */
+"5F9-dE-4Q3.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "ISi-FP-8Rv"; */
+"ISi-FP-8Rv.placeholder" = "الاسم";
+
+/* Class = "UILabel"; text = "Contact us on the number"; ObjectID = "ebB-sR-1cp"; */
+"ebB-sR-1cp.text" = "اتصل بنا على الرقم";
+
+/* Class = "UILabel"; text = "If you have any questions or complaints, please do not hesitate to contact us."; ObjectID = "hfk-ZG-XBA"; */
+"hfk-ZG-XBA.text" = "إذا كان لديك أي أسئلة أو شكاوى، فلا تتردد في الاتصال بنا.";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "jtF-wB-3fI"; */
+"jtF-wB-3fI.normalTitle" = "إرسال";
+
+/* Class = "UILabel"; text = "Or through"; ObjectID = "tiA-Ou-O2j"; */
+"tiA-Ou-O2j.text" = "أو من خلال";

@@ -1,0 +1,36 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "fDx-jl-iRd.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"location\"; ObjectID = \"fDx-jl-iRd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "location"
+          }
+        }
+      }
+    },
+    "RgC-Df-X1v.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Add\"; ObjectID = \"RgC-Df-X1v\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

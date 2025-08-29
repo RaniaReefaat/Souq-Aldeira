@@ -1,0 +1,60 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "0cj-Nt-zxh.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Add\"; ObjectID = \"0cj-Nt-zxh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add"
+          }
+        }
+      }
+    },
+    "57W-6b-vfJ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Create a new file\"; ObjectID = \"57W-6b-vfJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء ملف جديد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Create a new file"
+          }
+        }
+      }
+    },
+    "gFz-u2-PjP.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Type the file name\"; ObjectID = \"gFz-u2-PjP\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب اسم الملف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Type the file name"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

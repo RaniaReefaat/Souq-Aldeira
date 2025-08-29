@@ -1,0 +1,294 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "7T2-BX-nY6.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Item name\"; ObjectID = \"7T2-BX-nY6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "اسم المنتج"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Item name"
+          }
+        }
+      }
+    },
+    "B8S-Ws-1Kr.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Sub category\"; ObjectID = \"B8S-Ws-1Kr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "القسم الفرعي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sub category"
+          }
+        }
+      }
+    },
+    "Cxd-Ib-4P4.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"item Pictures\"; ObjectID = \"Cxd-Ib-4P4\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صور وفيديو المنتج"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "item Pictures"
+          }
+        }
+      }
+    },
+    "fIa-GX-ULI.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Choose Category\"; ObjectID = \"fIa-GX-ULI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر القسم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Choose Category"
+          }
+        }
+      }
+    },
+    "gWy-uJ-C9d.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Item description\"; ObjectID = \"gWy-uJ-C9d\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "وصف المنتج"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Item description"
+          }
+        }
+      }
+    },
+    "kpQ-aa-Vqp.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Category\"; ObjectID = \"kpQ-aa-Vqp\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "القسم الرئيسي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Category"
+          }
+        }
+      }
+    },
+    "ll8-Uf-ELe.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"-\"; ObjectID = \"ll8-Uf-ELe\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "-"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "-"
+          }
+        }
+      }
+    },
+    "mDD-lq-jeW.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Available QNT\"; ObjectID = \"mDD-lq-jeW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "الكمية المتوفرة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Available QNT"
+          }
+        }
+      }
+    },
+    "mxC-We-YTI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Price (optional)\"; ObjectID = \"mxC-We-YTI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "السعر (اختياري)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Price (optional)"
+          }
+        }
+      }
+    },
+    "Om4-pr-DL7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Show Product\"; ObjectID = \"Om4-pr-DL7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض المنتج"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Show Product"
+          }
+        }
+      }
+    },
+    "S29-i6-4JY.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"In the event that there is no price for the product, the buyer will contact you via the email or WhatsApp number mentioned in the store’s profile.\"; ObjectID = \"S29-i6-4JY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في حالة عدم وجود سعر للمنتج سوف يقوم المشتري بالتواصل معكم عبر الأيميل او رقم الواتساب المذكورين بالملف الشخصي للمتجر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "In the event that there is no price for the product, the buyer will contact you via the email or WhatsApp number mentioned in the store’s profile."
+          }
+        }
+      }
+    },
+    "sRv-VS-yn3.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter name\"; ObjectID = \"sRv-VS-yn3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل الاسم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter name"
+          }
+        }
+      }
+    },
+    "UYi-dw-Xx1.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter Item Price\"; ObjectID = \"UYi-dw-Xx1\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل السعر"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter Item Price"
+          }
+        }
+      }
+    },
+    "wlx-Fz-2xW.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1\"; ObjectID = \"wlx-Fz-2xW\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "١"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1"
+          }
+        }
+      }
+    },
+    "Zw6-gB-Es0.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Add\"; ObjectID = \"Zw6-gB-Es0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Add"
+          }
+        }
+      }
+    },
+    "ZwM-q8-BaZ.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Choose Sub Category\"; ObjectID = \"ZwM-q8-BaZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر القسم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Choose Sub Category"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

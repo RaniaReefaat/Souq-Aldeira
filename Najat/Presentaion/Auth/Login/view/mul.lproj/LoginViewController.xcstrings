@@ -1,0 +1,150 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "3GQ-Qd-099.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Please enter your phone number\"; ObjectID = \"3GQ-Qd-099\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "من فضلك ادخل رقم هاتف حسابك"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Please enter your phone number"
+          }
+        }
+      }
+    },
+    "9XR-gT-xJM.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"Enter your phone number\"; ObjectID = \"9XR-gT-xJM\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ادخل رقم الهاتف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Enter your phone number"
+          }
+        }
+      }
+    },
+    "CJ8-c4-MKI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Don't have account?\"; ObjectID = \"CJ8-c4-MKI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس لديك حساب ؟ "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Don't have account?"
+          }
+        }
+      }
+    },
+    "FNl-RM-dX4.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Login\"; ObjectID = \"FNl-RM-dX4\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل دخول"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Login"
+          }
+        }
+      }
+    },
+    "JB5-KX-J4c.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Sign up\"; ObjectID = \"JB5-KX-J4c\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنشاء حساب "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sign up"
+          }
+        }
+      }
+    },
+    "ovy-jj-g5S.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Sign in\"; ObjectID = \"ovy-jj-g5S\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل دخول"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sign in"
+          }
+        }
+      }
+    },
+    "T7V-Jy-R3I.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Skip\"; ObjectID = \"T7V-Jy-R3I\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطي"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip"
+          }
+        }
+      }
+    },
+    "uCm-vI-F9e.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"phone number\"; ObjectID = \"uCm-vI-F9e\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الهاتف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "phone number"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

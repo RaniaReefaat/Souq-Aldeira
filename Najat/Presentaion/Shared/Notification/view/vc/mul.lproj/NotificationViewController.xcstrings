@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "OqY-PM-uJV.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Alerts\"; ObjectID = \"OqY-PM-uJV\";",
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التنبيهات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Alerts"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
